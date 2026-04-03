@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>マーケットリサーチ -  プロジェクトアーカイブ</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <title>マーケットリサーチ - プロジェクトアーカイブ</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
   <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
   <button class="hamburger" aria-label="メニュー">
     <span></span><span></span><span></span>
   </button>
 
   <div class="page-wrapper">
-  <aside class="sidebar" data-nav-level="docs"></aside>
+    <aside class="sidebar" data-nav-level="docs"></aside>
 
     <main class="main-content">
       <header class="doc-header">
         <div class="doc-category">DOCUMENT 02</div>
         <h1 class="doc-title">マーケットリサーチ</h1>
         <div class="doc-meta">
-          <span><span class="material-symbols-outlined icon-sm">calendar_today</span> 作成日：2026-XX-XX</span>
-          <span><span class="material-symbols-outlined icon-sm">person</span> 作成者：（氏名を入力）</span>
-          <span><span class="material-symbols-outlined icon-sm">push_pin</span> Ver 1.0</span>
+          <span><span class="material-symbols-outlined icon-sm">calendar_today</span> 作成日：2026-04-03an>
+            <span><span class="material-symbols-outlined icon-sm">person</span> 作成者：富澤優華</span>
+            <span><span class="material-symbols-outlined icon-sm">push_pin</span> Ver 1.0</span>
         </div>
       </header>
 
@@ -38,7 +41,8 @@
           </div>
           <div class="external-link-input">
             <input type="text" placeholder="https://docs.google.com/spreadsheets/d/xxxxx" id="external-link-02">
-            <a href="#" class="link-btn" onclick="window.open(document.getElementById('external-link-02').value || 'https://docs.google.com', '_blank'); return false;">
+            <a href="#" class="link-btn"
+              onclick="window.open(document.getElementById('external-link-02').value || 'https://docs.google.com', '_blank'); return false;">
               <span class="material-symbols-outlined">open_in_new</span>
               開く
             </a>
@@ -59,13 +63,25 @@
         <section class="section" id="sec1">
           <h2 class="section-title"><span class="section-icon">1</span> 3C分析</h2>
 
-        <div class="fill-block">
-          <div class="fill-label">Customer（顧客） <span class="required">必須</span></div>
-          <div class="fill-hint">ターゲット顧客の特徴・ニーズ・行動パターン</div>
-          <div class="fill-content">
-            <p>（顧客分析を記載）</p>
-          </div>
-          <div class="prompt-box">
+          <div class="fill-block">
+            <div class="fill-label">Customer（顧客） <span class="required">必須</span></div>
+            <div class="fill-hint">ターゲット顧客の特徴・ニーズ・行動パターン</div>
+            <div class="fill-content">
+              <p>■ Customer（顧客分析）<br>
+
+                ・ターゲット顧客の特徴（年齢層、職業、ライフスタイル）<br>
+                主なターゲットは20〜40代で、女性が中心ですが男性やカップルでの利用も見られます。体験や思い出づくりなど、コト消費を重視する層です。<br>
+
+                ・顧客のニーズや悩み<br>
+                「自分だけの香りを作りたい」「特別な体験をしたい」というニーズがあります。一方で、体験内容が分かりにくい場合や予約導線が弱い場合、予約に至らない可能性があります。<br>
+
+                ・顧客の行動パターン（情報収集の方法、購買行動）<br>
+                SNSやWebサイトで情報収集し、雰囲気やビジュアルから興味を持つ傾向があります。その後、内容を確認して納得できれば予約に進みますが、導線が不明確だと離脱します。<br>
+
+                ・市場のトレンド<br>
+                体験価値を重視するコト消費が拡大しています。特にSNS映えするワークショップは注目されており、視覚的な訴求が重要です。<br>
+            </div>
+            <!-- class="prompt-box">
             <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
             <div class="prompt-text">（サービス名）の3C分析のうち「Customer（顧客）」を分析してください。
 以下の観点で記載してください。
@@ -73,39 +89,74 @@
 ・顧客のニーズや悩み
 ・顧客の行動パターン（情報収集の方法、購買行動）
 ・市場のトレンド</div>
+          </div>-->
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">Competitor（競合） <span class="required">必須</span></div>
-          <div class="fill-hint">競合サービスの特徴・強み・弱み</div>
-          <div class="fill-content">
-            <p>（競合分析を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Competitor（競合） <span class="required">必須</span></div>
+            <div class="fill-hint">競合サービスの特徴・強み・弱み</div>
+            <div class="fill-content">
+              <p>■ Competitor（競合分析）<br>
+
+                ①<br>
+                ・サービス名：L’air De SAVON ワークショップ<br>
+                ・特徴：ブランド主導の体験型サービスです。<br>
+                ・強み：ブランド力と専門性があります。<br>
+                ・弱み：自由度が低くなりやすいです。<br>
+                ・差別化ポイント：個人の感性を重視した体験で差別化します。<br>
+
+                ②<br>
+                ・サービス名：アソビュー！<br>
+                ・特徴：体験予約の総合プラットフォームです。<br>
+                ・強み：集客力と比較のしやすさです。<br>
+                ・弱み：世界観が弱くなりやすいです。<br>
+                ・差別化ポイント：ブランド世界観と体験価値で差別化します。<br>
+
+                ③<br>
+                ・サービス名：カラリア 香りのワークショップ<br>
+                ・特徴：香りに関する体験やサービスを提供しています。<br>
+                ・強み：香りに特化したサービス展開です。<br>
+                ・弱み：体験型としての導線が限定的な場合があります。<br>
+                ・差別化ポイント：体験導線と分かりやすいUI設計で差別化します。
+            </div>
+            <!-- class="prompt-box">
+              <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例
+              </div>
+              <div class="prompt-text">（業種名）の分野で代表的な競合サービスを3つ挙げ、それぞれについて以下を分析してください。
+                ・サービス名
+                ・特徴
+                ・強み
+                ・弱み
+                ・自社サービスとの比較での差別化ポイント</div>
+            </div>-->
           </div>
-          <div class="prompt-box">
-            <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
-            <div class="prompt-text">（業種名）の分野で代表的な競合サービスを3つ挙げ、それぞれについて以下を分析してください。
-・サービス名
-・特徴
-・強み
-・弱み
-・自社サービスとの比較での差別化ポイント</div>
+          <div class="fill-block">
+            <div class="fill-label">Company（自社） <span class="required">必須</span></div>
+            <div class="fill-hint">自分のサービスの強み・提供できる価値</div>
+            <div class="fill-content">
+              <p>■ Company（自社分析）<br>
+
+                ・提供できる価値<br>
+                自分だけの香りを作る体験と、非日常的な時間を提供できます。<br>
+
+                ・独自の強み<br>
+                浅草という立地により、アクセスが良く観光客も来訪しやすい点です。<br>
+
+                ・活用できるリソース<br>
+                ミニマルで上品なデザイン設計と、シンプルな予約導線を活用できます。<br>
+
+                ・弱み・課題<br>
+                体験内容の分かりにくさや、予約導線の弱さにより離脱が発生する可能性があります。<br>
+            </div>
+            <!-- class="prompt-box">
+              <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例
+              </div>
+              <div class="prompt-text">（サービス名）について、3C分析の「Company」の観点で分析してください。
+                ・提供できる価値
+                ・独自の強み
+                ・活用できるリソース
+                ・弱み・課題</div>
+            </div>-->
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">Company（自社） <span class="required">必須</span></div>
-          <div class="fill-hint">自分のサービスの強み・提供できる価値</div>
-          <div class="fill-content">
-            <p>（自社分析を記載）</p>
-          </div>
-          <div class="prompt-box">
-            <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
-            <div class="prompt-text">（サービス名）について、3C分析の「Company」の観点で分析してください。
-・提供できる価値
-・独自の強み
-・活用できるリソース
-・弱み・課題</div>
-          </div>
-        </div>
 
         </section>
 
@@ -116,78 +167,167 @@
             <div class="fill-label">SWOT分析マトリクス <span class="required">必須</span></div>
             <div class="fill-hint">Strengths（強み）・Weaknesses（弱み）・Opportunities（機会）・Threats（脅威）</div>
 
-        <table class="doc-table">
-          <thead><tr><th></th><th>プラス要因</th><th>マイナス要因</th></tr></thead>
-          <tbody>
-          <tr class="template-row"><td><strong>内部環境</strong></td><td><strong>Strengths（強み）</strong><br>（3つ以上記載）</td><td><strong>Weaknesses（弱み）</strong><br>（3つ以上記載）</td></tr>
-          <tr class="template-row"><td><strong>外部環境</strong></td><td><strong>Opportunities（機会）</strong><br>（3つ以上記載）</td><td><strong>Threats（脅威）</strong><br>（3つ以上記載）</td></tr>
-          </tbody>
-        </table>
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>プラス要因</th>
+                  <th>マイナス要因</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="template-row">
+                  <td><strong>内部環境</strong></td>
+                  <td><strong>Strengths（強み）</strong><br>
+                    香りの種類が豊富で自由度が高い<br>
+                    手ぶらで参加できるためハードルが低い<br>
+                    作成した香水や選んだ香りを持ち帰れるため満足度が高い<br>
 
-            <div class="prompt-box">
+                  <td><strong>Weaknesses（弱み）</strong><br>
+                    サービスの認知度が低い<br>
+                    体験内容が分かりにくい場合がある<br>
+                    予約導線が弱く離脱につながる可能性がある<br>
+                </tr>
+                <tr class="template-row">
+                  <td><strong>外部環境</strong></td>
+                  <td><strong>Opportunities（機会）</strong><br>
+                    コト消費の拡大により体験型サービスの需要が増加している<br>
+                    SNSによる拡散で認知向上が期待できる<br>
+                    観光地（浅草）と親和性が高く観光客の流入が見込める<br>
+                  <td><strong>Threats（脅威）</strong><br>
+                    類似のワークショップとの競争がある<br>
+                    価格や立地で比較されやすい<br>
+                    景気や消費動向に左右されやすい<br>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- class="prompt-box">
               <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
               <div class="prompt-text">（サービス名）のSWOT分析を行ってください。
 
-サービス概要：（サービスの概要を記載）
-ターゲット：（ターゲット情報を記載）
-競合：（競合サービス名を記載）
+                サービス概要：（サービスの概要を記載）
+                ターゲット：（ターゲット情報を記載）
+                競合：（競合サービス名を記載）
 
-以下の4項目それぞれ3つ以上挙げてください。
-・Strengths（強み）
-・Weaknesses（弱み）
-・Opportunities（機会）
-・Threats（脅威）</div>
-            </div>
+                以下の4項目それぞれ3つ以上挙げてください。
+                ・Strengths（強み）
+                ・Weaknesses（弱み）
+                ・Opportunities（機会）
+                ・Threats（脅威）</div>
+            </div>-->
           </div>
         </section>
 
         <section class="section" id="sec3">
           <h2 class="section-title"><span class="section-icon">3</span> STP分析</h2>
 
-        <div class="fill-block">
-          <div class="fill-label">Segmentation（市場細分化） <span class="required">必須</span></div>
-          <div class="fill-hint">市場をどのような基準で分類するか</div>
-          <div class="fill-content">
-            <p>（セグメンテーションを記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Segmentation（市場細分化） <span class="required">必須</span></div>
+            <div class="fill-hint">市場をどのような基準で分類するか</div>
+            <div class="fill-content">
+              <p>■ 市場セグメンテーション<br>
+
+                ・地理的変数（地域・都市規模）<br>
+                都市部（東京・大阪など）<br>
+                観光地エリア（浅草など）<br>
+                アクセスの良い駅近エリア<br>
+
+                ・人口統計的変数（年齢・性別・職業・年収）<br>
+                20〜30代中心<br>
+                女性がメイン、男性やカップルも含む<br>
+                会社員・学生などの可処分所得を持つ層<br>
+
+                ・心理的変数（ライフスタイル・価値観）<br>
+                コト消費を重視する層<br>
+                SNS映えや体験価値を求める層<br>
+                自分らしさや特別感を大切にする層<br>
+
+                ・行動変数（利用頻度・求めるベネフィット）<br>
+                記念日やデートなどのイベント利用<br>
+                非日常体験や思い出づくりを求める<br>
+                オリジナルの香りを作れる体験を重視
+            </div>
+            <!-- class="prompt-box">
+              <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
+              <div class="prompt-text">（業種名）の市場を以下の4つの基準で細分化してください。
+                ・地理的変数（地域・都市規模）
+                ・人口統計的変数（年齢・性別・職業・年収）
+                ・心理的変数（ライフスタイル・価値観）
+                ・行動変数（利用頻度・求めるベネフィット）</div>
+            </div>-->
           </div>
-          <div class="prompt-box">
-            <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
-            <div class="prompt-text">（業種名）の市場を以下の4つの基準で細分化してください。
-・地理的変数（地域・都市規模）
-・人口統計的変数（年齢・性別・職業・年収）
-・心理的変数（ライフスタイル・価値観）
-・行動変数（利用頻度・求めるベネフィット）</div>
+          <div class="fill-block">
+            <div class="fill-label">Targeting（ターゲット選定） <span class="required">必須</span></div>
+            <div class="fill-hint">どのセグメントを狙うか、その理由</div>
+            <div class="fill-content">
+              <p>■ ターゲットセグメント選定<br>
+
+                ①<br>
+                ・選定したセグメント<br>
+                都市部在住の20〜30代女性（コト消費志向・SNS利用が多い層）<br>
+
+                ・市場規模（推定）<br>
+                比較的大きい<br>
+
+                ・選定理由<br>
+                体験型サービスとの親和性が高く、SNSによる拡散力も期待できるため<br>
+
+                ・このセグメントのニーズ<br>
+                特別感のある体験<br>
+                自分だけの香り作り<br>
+                SNSで共有したくなる世界観<br>
+
+                ②<br>
+                ・選定したセグメント<br>
+                デート・記念日利用の20〜30代カップル<br>
+
+                ・市場規模（推定）<br>
+                中程度<br>
+
+                ・選定理由<br>
+                体験を共有するニーズが強く、単価向上や満足度向上につながりやすいため<br>
+
+                ・このセグメントのニーズ<br>
+                思い出に残る体験<br>
+                非日常感<br>
+                ペアで楽しめるコンテンツ<br>
+            </div>
+            <!-- class="prompt-box">
+              <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
+              <div class="prompt-text">上記のセグメンテーションから、（サービス名）が狙うべきターゲットセグメントを1〜2つ選定し、選定理由を説明してください。
+                ・選定したセグメント
+                ・市場規模（推定）
+                ・選定理由
+                ・このセグメントのニーズ</div>
+            </div>-->
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">Targeting（ターゲット選定） <span class="required">必須</span></div>
-          <div class="fill-hint">どのセグメントを狙うか、その理由</div>
-          <div class="fill-content">
-            <p>（ターゲティングを記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Positioning（ポジショニング） <span class="required">必須</span></div>
+            <div class="fill-hint">競合に対してどのような位置づけを取るか</div>
+            <div class="fill-content">
+              <p>■ ポジショニング<br>
+
+                ・差別化軸<br>
+                横軸：体験の分かりやすさ（低 ←→ 高）<br>
+                縦軸：世界観・デザイン性（低 ←→ 高）<br>
+
+                ・ポジショニングマップ上の位置<br>
+                nanaは「体験の分かりやすさが高く、世界観も高い」領域に位置する。<br>
+                一方で、競合は「世界観は高いが導線が弱い」または「導線は強いが世界観が弱い」位置に分かれる。<br>
+
+                ・そのポジションを取る理由<br>
+                既存の競合では、体験の魅力は伝わるが予約導線が弱い、または導線は整っているがブランド体験が弱い傾向がある。<br>
+                そのため、両方を高いレベルで満たすことで、離脱を防ぎながら体験価値も最大化できるため。<br>
+            </div>
+            <!-- class="prompt-box">
+              <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
+              <div class="prompt-text">（サービス名）のポジショニングを設定してください。
+                ・競合サービスとの差別化軸を2つ決めてください
+                ・ポジショニングマップ上での位置を説明してください
+                ・そのポジションを取る理由を説明してください</div>
+            </div>-->
           </div>
-          <div class="prompt-box">
-            <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
-            <div class="prompt-text">上記のセグメンテーションから、（サービス名）が狙うべきターゲットセグメントを1〜2つ選定し、選定理由を説明してください。
-・選定したセグメント
-・市場規模（推定）
-・選定理由
-・このセグメントのニーズ</div>
-          </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">Positioning（ポジショニング） <span class="required">必須</span></div>
-          <div class="fill-hint">競合に対してどのような位置づけを取るか</div>
-          <div class="fill-content">
-            <p>（ポジショニングを記載）</p>
-          </div>
-          <div class="prompt-box">
-            <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
-            <div class="prompt-text">（サービス名）のポジショニングを設定してください。
-・競合サービスとの差別化軸を2つ決めてください
-・ポジショニングマップ上での位置を説明してください
-・そのポジションを取る理由を説明してください</div>
-          </div>
-        </div>
 
         </section>
 
@@ -196,31 +336,59 @@
 
           <div class="fill-block">
             <div class="fill-label">4P・4C分析 <span class="required">必須</span></div>
-        <table class="doc-table">
-          <thead><tr><th>4P（売り手視点）</th><th>内容</th><th>4C（買い手視点）</th><th>内容</th></tr></thead>
-          <tbody>
-          <tr class="template-row"><td><strong>Product</strong><br>（製品）</td><td>（記載）</td><td><strong>Customer Value</strong><br>（顧客価値）</td><td>（記載）</td></tr>
-          <tr class="template-row"><td><strong>Price</strong><br>（価格）</td><td>（記載）</td><td><strong>Cost</strong><br>（顧客コスト）</td><td>（記載）</td></tr>
-          <tr class="template-row"><td><strong>Place</strong><br>（流通）</td><td>（記載）</td><td><strong>Convenience</strong><br>（利便性）</td><td>（記載）</td></tr>
-          <tr class="template-row"><td><strong>Promotion</strong><br>（販促）</td><td>（記載）</td><td><strong>Communication</strong><br>（対話）</td><td>（記載）</td></tr>
-          </tbody>
-        </table>
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th>4P（売り手視点）</th>
+                  <th>内容</th>
+                  <th>4C（買い手視点）</th>
+                  <th>内容</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="template-row">
+                  <td><strong>Product</strong><br>（製品）</td>
+                  <td>自分だけの香りを作る体験型ワークショップ
+                  <td><strong>Customer Value</strong><br>（顧客価値）</td>
+                  <td>特別感のある体験と自己表現ができる価値
+                </tr>
+                <tr class="template-row">
+                  <td><strong>Price</strong><br>（価格）</td>
+                  <td>体験型サービスとしての中価格帯設定
+                  <td><strong>Cost</strong><br>（顧客コスト）</td>
+                  <td>非日常体験として納得できる価格で心理的負担が低い
+                </tr>
+                <tr class="template-row">
+                  <td><strong>Place</strong><br>（流通）</td>
+                  <td>浅草の立地とWeb予約による提供
 
-            <div class="prompt-box">
+                  <td><strong>Convenience</strong><br>（利便性）</td>
+                  <td>アクセスしやすく、オンラインで簡単に予約できる
+                </tr>
+                <tr class="template-row">
+                  <td><strong>Promotion</strong><br>（販促）</td>
+                  <td>SNSとビジュアル重視の訴求
+                  <td><strong>Communication</strong><br>（対話）</td>
+                  <td>世界観の共有と分かりやすい導線で予約までつなげる
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- class="prompt-box">
               <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
               <div class="prompt-text">（サービス名）の4P・4C分析を行ってください。
 
-サービス概要：（サービスの概要を記載）
-ターゲット：（ターゲット情報を記載）
+                サービス概要：（サービスの概要を記載）
+                ターゲット：（ターゲット情報を記載）
 
-4P（Product / Price / Place / Promotion）と
-4C（Customer Value / Cost / Convenience / Communication）の
-対応関係がわかるように分析してください。</div>
-            </div>
+                4P（Product / Price / Place / Promotion）と
+                4C（Customer Value / Cost / Convenience / Communication）の
+                対応関係がわかるように分析してください。</div>
+            </div>-->
           </div>
         </section>
 
-        <section class="section" id="sec5">
+        <!--tion class="section" id="sec5">
           <h2 class="section-title"><span class="section-icon">5</span> 競合サイト分析</h2>
 
           <div class="info-box info">
@@ -228,50 +396,50 @@
             実際にWebブラウザでアクセスし、スクリーンショットを撮って掲載してください。
           </div>
 
-        <div class="fill-block">
-          <div class="fill-label">競合サイト 1 <span class="required">必須</span></div>
-          <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
-          <div class="fill-content">
-            <p>（競合サイト1の分析を記載）
-（スクリーンショットを配置：&lt;img src=&quot;../images/competitor1.png&quot; alt=&quot;競合サイト1&quot;&gt;）</p>
-          </div>
-          <div class="prompt-box">
-            <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
-            <div class="prompt-text">以下の競合サイトを分析してください。
-サイト名：（サイト名）
-URL：（URL）
+          <div class="fill-block">
+            <div class="fill-label">競合サイト 1 <span class="required">必須</span></div>
+            <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
+            <div class="fill-content">
+              <p>（競合サイト1の分析を記載）
+                （スクリーンショットを配置：&lt;img src=&quot;../images/competitor1.png&quot; alt=&quot;競合サイト1&quot;&gt;）</p>
+            </div>
+            <div class="prompt-box">
+              <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
+              <div class="prompt-text">以下の競合サイトを分析してください。
+                サイト名：（サイト名）
+                URL：（URL）
 
-以下の観点で分析してください。
-・サイトの第一印象
-・良い点（デザイン・機能・コンテンツ）
-・改善できそうな点
-・自分のサイトに取り入れたい要素</div>
+                以下の観点で分析してください。
+                ・サイトの第一印象
+                ・良い点（デザイン・機能・コンテンツ）
+                ・改善できそうな点
+                ・自分のサイトに取り入れたい要素</div>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">競合サイト 2 <span class="required">必須</span></div>
-          <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
-          <div class="fill-content">
-            <p>（競合サイト2の分析を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">競合サイト 2 <span class="required">必須</span></div>
+            <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
+            <div class="fill-content">
+              <p>（競合サイト2の分析を記載）</p>
+            </div>
+            <div class="prompt-box">
+              <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
+              <div class="prompt-text">（同様のプロンプトで2つ目の競合サイトを分析）</div>
+            </div>
           </div>
-          <div class="prompt-box">
-            <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
-            <div class="prompt-text">（同様のプロンプトで2つ目の競合サイトを分析）</div>
+          <div class="fill-block">
+            <div class="fill-label">競合サイト 3 <span class="required">必須</span></div>
+            <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
+            <div class="fill-content">
+              <p>（競合サイト3の分析を記載）</p>
+            </div>
+            <div class="prompt-box">
+              <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
+              <div class="prompt-text">（同様のプロンプトで3つ目の競合サイトを分析）</div>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">競合サイト 3 <span class="required">必須</span></div>
-          <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
-          <div class="fill-content">
-            <p>（競合サイト3の分析を記載）</p>
-          </div>
-          <div class="prompt-box">
-            <div class="prompt-title"><span class="material-symbols-outlined icon-sm">smart_toy</span> AIプロンプト例</div>
-            <div class="prompt-text">（同様のプロンプトで3つ目の競合サイトを分析）</div>
-          </div>
-        </div>
 
-        </section>
+        </section>-->
 
       </div>
     </main>
@@ -279,4 +447,5 @@ URL：（URL）
 
   <script src="../js/main.js"></script>
 </body>
+
 </html>
